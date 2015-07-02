@@ -389,7 +389,7 @@ namespace ColPack
 							//Algo 4 - Line 18: add [v] to R ; cont <- false; break
 #pragma omp critical
 							vi_verticesNeedNewColor.push_back(v);
-#pragma omp end critical
+//#pragma omp end critical
 							cont = false;
 							break;
 						}
@@ -576,7 +576,7 @@ namespace ColPack
 							//Algo 4 - Line 18: add [v] to R ; cont <- false; break
 #pragma omp critical
 							vi_verticesNeedNewColor.push_back(v);
-#pragma omp end critical
+//#pragma omp end critical
 							cont = false;
 							break;
 						}
